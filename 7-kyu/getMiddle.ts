@@ -1,3 +1,5 @@
+//7-kyu Get the Middle Character 
+
 export const getMiddle = (s: string): string => {
     if (s.length === 1) return s
     const arr = s.split("");
